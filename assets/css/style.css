@@ -88,6 +88,7 @@ main div{
 }
 .tabella>table>caption{
     font-weight: bolder;
+    font-style: italic;
 }
 table{
     text-align: center;

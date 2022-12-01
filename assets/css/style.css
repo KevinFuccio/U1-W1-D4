@@ -53,6 +53,7 @@ button {
     box-shadow: 0px 4px 12px;
     padding-left: 20px;
     padding-right: 20px;
+    font-size: 20px;
 }
 .box-main h1{
     font-size: 40px;
@@ -62,16 +63,144 @@ button {
     padding-right: 50px;
     line-height: 1.4;
 }
-.box-main div{
-    padding-top: 20px;
+main div{
+    padding-top: 30px;
     line-height: 1.5;
-    font-weight: 400;
 
 }
-.box-main p{
+.subtitle{
     color: gray;
     letter-spacing: 1.5px;
 }
-ul li{
+.lista{
     margin-left: 30px;
+    margin-right: 60px;
+}
+.text-colo{
+    color: #aa2072;
+    font-weight: bold;
+}
+.bordo-corpo{
+    border: solid black 1px;
+    background-color: lightgray;
+    border-radius: 6px;
+    padding: 3px;
+}
+.tabella>table>caption{
+    font-weight: bolder;
+}
+table{
+    text-align: center;
+    letter-spacing: 1px;
+}
+tr>td{
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+tr>th{
+    color: white;
+    background-color: #3567e9;
+    padding: 20px;
+    vertical-align: bottom;
+}
+tr:nth-of-type(odd){
+    background-color: #eeeeee;
+    border-top: #cecccc;
+    border-bottom: #cecccc;
+    border-style: solid;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+}
+tr:last-child{
+    border-bottom: solid #3567e9 2px;
+}
+.color-az{
+    color: #01aacd;
+    text-decoration: underline;
+    font-weight: bold;
+}
+.video>iframe{
+    width: 100%;    
+    height: 200px;
+    border-radius: 30px;
+}
+.informazioni>div{
+    background-color: #ddddde;
+    margin-top: 10px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.informazioni>div h3{
+    font-size: 25px;
+    font-weight: bold;
+}
+.informazioni p{
+    text-align: start;
+    font-size: 26px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.iscriviti{
+    color: white;
+    background-color: #3567e9;
+    display: inline-block;
+    margin: 5px;
+    height: 30px;
+}
+.informazioni input{
+    width: 60%;
+    border: 0px;
+    border-bottom: 1px;
+    border-style: dashed;
+    font-size: 26px;
+}
+.h3-speciale h3{
+    margin-top: 10px;
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.boxes{
+    border: solid gray;
+}
+
+.boxes div{
+    box-sizing: border-box;
+    background-color: #ddddde;
+    padding-top: 0px;
+    text-align: start;
+}
+.boxes>div{
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.boxes-right>.boxes-right2{
+ text-align: right;
+ padding-bottom: 10px;
+ padding-right: 20px;
+}
+.boxes{
+    border: solid #c6c6c6 1px;
+    padding: 0%;
+    margin-bottom: 20px;
+}
+footer{
+    box-sizing: border-box;
+    width: 425px;
+    height: auto;
+    background-image: linear-gradient(180deg, #005566,  #2a3338);
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0px 4px 12px;
+    padding-bottom: 30px;
+}
+.footer div{
+    text-align: center;
+    padding-top: 10px;
+    color: white;
+}
+.footer-color{
+    color: #f811e4;
+    text-decoration: underline;
 }
